@@ -48,6 +48,21 @@ Use Circular Array for a ring of holes, the spokes of a wheel or a gear's teeth.
 
 The copies are linked to the original by Constraints. To free a copy, select it, tap **⋯** and pick **Detach from Circular Array**.
 
+## Change a Circular Array
+
+1. Select the original or any copy, tap **⋯** and pick **Edit Circular Array…**. You can also double-tap a copy.
+2. The count and angle tags appear on the array. Tap one and enter a new value. The array changes as soon as you set it: there is no Apply.
+
+   ![The count and angle tags on the array](images/circular-array-06-edit-tags.png)
+
+3. Tap **Done** when you're finished. Each change is its own step, so **Undo** takes back the last one.
+
+   ![Eight copies, spaced evenly round](images/circular-array-07-edited.png)
+
+- At 360°, a new count spaces all the copies evenly again. At a smaller angle, the last copy stays at the end of it.
+- A lower count deletes the copies past it, with any Constraints on them. A copy you deleted or detached stays out when you change the count.
+- If you delete the original or the center, the copies stay as ordinary shapes and the array can't be edited any more.
+
 ## Common problems
 
 - **Next stays greyed out:** pick at least one shape first.

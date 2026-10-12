@@ -50,6 +50,25 @@ Use Linear Array for a row of equal holes, teeth, slots or ribs. For copies arou
 
 The copies are linked to the original by Constraints. To take a copy out of the pattern and move it freely, select it, tap **⋯** and pick **Detach from Linear Array**.
 
+## Change a Linear Array
+
+1. Select the original or any copy, tap **⋯** and pick **Edit Linear Array…**. You can also double-tap a copy.
+
+   ![Edit Linear Array in the menu](images/linear-array-06-edit-menu.png)
+
+2. The spacing and count tags appear on the array. Tap one and enter a new value. The array changes as soon as you set it: there is no Apply. The handle at the end of the line runs the copies the other way.
+
+   ![The spacing and count tags on the array](images/linear-array-07-edit-tags.png)
+
+3. Tap **Done** when you're finished. Each change is its own step, so **Undo** takes back the last one.
+
+   ![The row of circles at the new spacing](images/linear-array-08-edited.png)
+
+- A lower count deletes the copies past it, with any Constraints on them. Raise it again to get new copies.
+- A copy you deleted, or detached, stays out when you change the count.
+- The spacing can come from a Parameter: in the value editor, pick one with the braces, as for a dimension.
+- If you delete the original, the copies stay as ordinary shapes and the array can't be edited any more.
+
 ## Common problems
 
 - **Next stays greyed out:** pick at least one shape first.
