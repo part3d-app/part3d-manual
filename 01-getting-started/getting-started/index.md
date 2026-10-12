@@ -125,7 +125,7 @@ The **History** is the list of your Features, in the order you added them. Part3
 
 STL is free. **STEP** and **OBJ** need Pro, and with Pro the STL is exported at a finer resolution.
 
-Your bracket is done. To keep working on it later, tap the save button (the floppy disk) in the toolbar.
+Your bracket is done. To keep working on it later, tap the save button (the floppy disk) in the toolbar, then type a name for it and tap **Save**.
 
 ## What's next
 

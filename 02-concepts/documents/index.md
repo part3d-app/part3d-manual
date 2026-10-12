@@ -23,7 +23,7 @@ Save a Document and you save all of it, including the History, so you can come b
 
 ## Where Documents live
 
-The **Documents** screen lists your Documents. Tap **New Document** to start an empty one named **Untitled**, or tap an existing one to open it in the Editor. To rename the open Document, tap its name in the toolbar. Tap the save button (the floppy disk) to save it.
+The **Documents** screen lists your Documents. Tap **New Document** to start an empty one named **Untitled**, or tap an existing one to open it in the Editor. To rename the open Document, tap its name in the toolbar. Tap the save button (the floppy disk) to save it. The first time you save a Document, Part3D asks for its name.
 
 > [!NOTE]
 > **On Mac:** press ⌘S to save.
