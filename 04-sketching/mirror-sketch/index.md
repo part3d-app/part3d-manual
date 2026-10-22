@@ -17,7 +17,7 @@ Mirror (Sketch) copies shapes in a [Sketch](../../02-concepts/sketches/index.md)
 
 ## When to use it
 
-Use Mirror (Sketch) for symmetrical outlines: draw one half, mirror it across the middle. For repeated, not mirrored, copies, use [Linear Array](../linear-array/index.md) or [Circular Array](../circular-array/index.md).
+Use Mirror (Sketch) for symmetrical outlines: draw one half, mirror it across the middle. It also turns [Text](../text/index.md) back to front, for stamps and molds. For repeated, not mirrored, copies, use [Linear Array](../linear-array/index.md) or [Circular Array](../circular-array/index.md).
 
 ## Mirror shapes
 
