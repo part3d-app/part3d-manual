@@ -7,7 +7,7 @@ pro: false
 
 # Text
 
-Text adds lettering to a [Sketch](../../02-concepts/sketches/index.md). Each letter is a closed outline, so [Extrude](../../05-modeling/extrude/index.md) turns it into raised letters and Extrude Cut engraves it. The text stays editable: change the words, font or size later, and every Feature built on it is rebuilt.
+Text adds lettering to a [Sketch](../../02-concepts/sketches/index.md). Each letter is a closed outline, so [Extrude](../../05-modeling/extrude/index.md) turns it into raised letters and Extrude Cut engraves it. The text stays editable: change the words, font or Cap Height later, and every Feature built on it is rebuilt.
 
 ## When to use it
 
@@ -19,19 +19,19 @@ Use Text for part numbers, labels, name plates, signs, stamps and stencils. Text
 
    ![The Text Tool in the sidebar](images/text-01-open-tool.png)
 
-2. With the Pencil, tap where the text should start. The **Text** panel opens. Type your text in the **Text** field. The letters appear in the Sketch as you type.
+2. With the Pencil, tap where the text should start. The step bar at the top of the canvas becomes the **Text** bar. Type your text in its field. The letters appear in the Sketch as you type.
 
-   ![Typing in the Text panel](images/text-02-type-text.png)
+   ![Typing in the Text bar](images/text-02-type-text.png)
 
    The point you tapped is the text's **anchor**. A dashed line from it, the **baseline**, is the line the letters sit on.
 
-3. Set **Cap Height**: how tall the capital letters are. It starts at 10 mm.
+3. Set **Cap Height**: how tall the capital letters are. Tap the value in the bar (it starts at 10.00 mm) and type a new one.
 
    ![Cap Height set to 15 mm](images/text-03-cap-height.png)
 
-4. Pick a font. Each one is shown in its own face.
+4. Pick a font: tap the font's name in the bar. The menu shows each font in its own face.
 
-   ![Allerta Stencil picked in the font list](images/text-04-font.png)
+   ![Allerta Stencil picked in the font menu](images/text-04-font.png)
 
 5. Tap **Apply**. The text is added to the Sketch, and the Tool stays open for the next text. Tap **Text** again, or press **Esc**, to put it away.
 
@@ -39,9 +39,12 @@ Use Text for part numbers, labels, name plates, signs, stamps and stencils. Text
 
 ## Options
 
-- **Text** can have several lines and up to 256 characters. A counter above the field shows how many you have used.
+- **Text** can have several lines and up to 256 characters. Press **Return** to start a new line; the field grows to show three. Press **⌘-Return** to apply, and **Esc** to cancel.
 - **Font** is one of the fonts that come with Part3D (see below).
-- **Cap Height** is the height of a capital letter such as H, in the Document's units. It's what "8 mm lettering" means: set it to 8 and an H is 8 mm tall. Lowercase letters are shorter, and letters with tails, such as g and y, reach below the baseline. Tap the braces to take the value from a Parameter.
+- **Cap Height** is the height of a capital letter such as H, in the Document's units. It's what "8 mm lettering" means: set it to 8 and an H is 8 mm tall. Lowercase letters are shorter, and letters with tails, such as g and y, reach below the baseline. To take the value from a Parameter, tap the value and then the braces.
+
+The next three are under **More**, the sliders button in the bar (on a narrow screen, Cap Height is there too):
+
 - **Alignment** puts the text to the right of the anchor (left-aligned), centered on it, or to its left (right-aligned).
 - **Anchor** sets what the anchor is level with: the **Baseline**, the **Middle** of the capitals, or their **Top**. To center text on a point, pick center alignment and **Middle**.
 - **Letter Spacing** adds space between the letters. It starts at 0.
@@ -50,11 +53,11 @@ The anchor and the baseline are ordinary sketch geometry: drag them to move or t
 
 ## Change text
 
-1. Double-tap the text, on its letters or its baseline. The **Text** panel opens with its values.
+1. Double-tap the text, on its letters or its baseline. The **Text** bar opens with its values.
 
-   ![The Text panel reopened on the text](images/text-06-edit.png)
+   ![The Text bar reopened on the text](images/text-06-edit.png)
 
-2. Change what you like and tap **Apply**. Features made from the text are rebuilt. Tap **Delete** in the panel to remove the text.
+2. Change what you like and tap **Apply**. Features made from the text are rebuilt. To remove the text, tap the trash button in the bar.
 
 If you change the words, faces that a later Feature picked on the letters stay picked as long as the letters before them didn't change.
 
@@ -70,7 +73,7 @@ If you change the words, faces that a later Feature picked on the letters stay p
 | Allerta Stencil | Letters with no loose inner parts (see below) |
 | Archivo Black | Heavy display lettering for signs |
 
-The Noto fonts cover Latin, Greek and Cyrillic letters; the others cover fewer, and the panel tells you when a character is missing. You can't add your own fonts, but every Document opens with exactly the lettering it was made with, on any device.
+The Noto fonts cover Latin, Greek and Cyrillic letters; the others cover fewer, and the bar tells you when a character is missing. You can't add your own fonts, but every Document opens with exactly the lettering it was made with, on any device.
 
 ### Why the stencil font matters
 
@@ -108,19 +111,19 @@ A stamp or a mold needs its text back to front, so it reads correctly once print
 
    ![Picking the text's baseline to mirror](images/text-11-pick-baseline.png)
 
-2. Tap **Next**, tap the mirror line and tap **Apply**. The copy is mirror-image text that follows the original: change the original's words and the copy changes too.
+2. Tap **Next**, tap the mirror line and tap **Apply**. The copy is mirror-image text of its own. It stays the mirror image of the original's position: move or turn the original and the copy follows. Its words, font and Cap Height don't follow: to change them, double-tap the copy.
 
    ![The mirrored copy of the text](images/text-12-mirrored.png)
 
 ## Rows and rings of text
 
-[Linear Array](../linear-array/index.md) and [Circular Array](../circular-array/index.md) (Pro) copy text too: pick its baseline as the shape to copy. Each copy is a Text of its own with the same words, font and size, and stays in the pattern. [Offset (Sketch)](../offset-sketch/index.md), [Fillet (Sketch)](../fillet-sketch/index.md) and [Trim](../trim/index.md) leave text alone.
+[Linear Array](../linear-array/index.md) and [Circular Array](../circular-array/index.md) (Pro) copy text too: pick its baseline as the shape to copy. Each copy is a Text of its own with the same words, font and Cap Height, and stays in the pattern. [Offset (Sketch)](../offset-sketch/index.md), [Fillet (Sketch)](../fillet-sketch/index.md) and [Trim](../trim/index.md) leave text alone.
 
 ## Common problems
 
 - **"Some characters aren't available in this font."** The font has no letter for some of what you typed, such as an emoji or a script it doesn't cover. Those characters are left as blank space. Remove them or pick another font: the Noto fonts cover the most.
 
-  ![The missing characters warning in the Text panel](images/text-07-missing-glyphs.png)
+  ![The missing characters warning in the Text bar](images/text-07-missing-glyphs.png)
 
 - **"These characters couldn't be built and were left out":** the shape of those letters failed. The rest of the text is still built. Try another font or a larger Cap Height.
 - **The centers of O, A or R are missing from a cut-through plate:** that's the counters falling out. Use Allerta Stencil.
