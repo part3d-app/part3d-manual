@@ -45,6 +45,8 @@ Use Text for part numbers, labels, name plates, signs, stamps and stencils. Text
 
 The next three are under **More**, the sliders button in the bar (on a narrow screen, Cap Height is there too):
 
+![The More strip under the Text bar](images/text-13-more.png)
+
 - **Alignment** puts the text to the right of the anchor (left-aligned), centered on it, or to its left (right-aligned).
 - **Anchor** sets what the anchor is level with: the **Baseline**, the **Middle** of the capitals, or their **Top**. To center text on a point, pick center alignment and **Middle**.
 - **Letter Spacing** adds space between the letters. It starts at 0.
