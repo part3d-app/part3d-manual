@@ -35,3 +35,4 @@ Tap **Finish Sketch** to finish the Sketch. It becomes a step in the History, an
 ## What's next
 
 - [Constraints](../constraints/index.md) keep a Sketch's shapes at the sizes and angles you want.
+- [Text](../../04-sketching/text/index.md) adds lettering to a Sketch, to raise or engrave on a solid.
