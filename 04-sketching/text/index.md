@@ -75,7 +75,7 @@ If you change the words, faces that a later Feature picked on the letters stay p
 | Allerta Stencil | Letters with no loose inner parts (see below) |
 | Archivo Black | Heavy display lettering for signs |
 
-The Noto fonts cover Latin, Greek and Cyrillic letters; the others cover fewer, and the bar tells you when a character is missing. You can't add your own fonts, but every Document opens with exactly the lettering it was made with, on any device.
+The Noto fonts cover Latin, Greek and Cyrillic letters; the others cover fewer. When a character is missing, an info button appears in the bar (see Common problems). You can't add your own fonts, but every Document opens with exactly the lettering it was made with, on any device.
 
 ### Why the stencil font matters
 
@@ -123,9 +123,11 @@ A stamp or a mold needs its text back to front, so it reads correctly once print
 
 ## Common problems
 
+When something in the text can't be drawn, an info button (ⓘ) appears in the Text bar, next to its name. Tap it to read the message in a box below the bar; tap it again, tap elsewhere or press **Esc** to close the box. The button goes away once the problem is fixed.
+
 - **"Some characters aren't available in this font."** The font has no letter for some of what you typed, such as an emoji or a script it doesn't cover. Those characters are left as blank space. Remove them or pick another font: the Noto fonts cover the most.
 
-  ![The missing characters warning in the Text bar](images/text-07-missing-glyphs.png)
+  ![The info button in the Text bar, open on the missing characters message](images/text-07-missing-glyphs.png)
 
 - **"These characters couldn't be built and were left out":** the shape of those letters failed. The rest of the text is still built. Try another font or a larger Cap Height.
 - **The centers of O, A or R are missing from a cut-through plate:** that's the counters falling out. Use Allerta Stencil.
