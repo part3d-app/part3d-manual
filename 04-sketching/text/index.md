@@ -3,6 +3,7 @@ title: Text
 description: Add a line or block of text to a Sketch, to raise or engrave as letters.
 icon: 🔤
 pro: false
+featurebase_id: "6297703"
 ---
 
 # Text
