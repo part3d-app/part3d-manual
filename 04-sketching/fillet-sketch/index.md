@@ -39,7 +39,7 @@ Use Fillet (Sketch) to round the corners of an outline before you [Extrude](../.
 
 ## Options
 
-- **Size** is shown the way your sketch shows circles: as a diameter (⌀) or as a radius (R). Change it with **Circle and arc dimensions** in the settings menu in the bar at the bottom of the screen. Enter the number in the form the tag shows. It starts at a fifth of the shorter of the two lines (as a radius).
+- **Size** is shown the way your sketch shows circles: as a diameter (⌀) or as a radius (R). Change it with **Circle and arc dimensions** in **Settings**, on the **General** tab. Enter the number in the form the tag shows. It starts at a fifth of the shorter of the two lines (as a radius).
 - When you pick several corners they share one size.
 - The **✕** in the bar cancels the Tool.
 

@@ -13,7 +13,7 @@ In this tutorial you build a small mounting bracket: a 60 × 40 mm plate, 5 mm t
 Part3D on iPad is made for Apple Pencil. Draw and pick things on the canvas with the Pencil, and use your fingers to move the view: drag with one finger to turn it, pinch to zoom. Buttons and panels work with either.
 
 > [!TIP]
-> All sizes here are in millimetres. If you work in inches, tap the gear in the toolbar at the bottom of the screen and pick **in** under **Units**. Use the same numbers, or convert them.
+> All sizes here are in millimetres. If you work in inches, tap **Settings** (the gear in the toolbar), open the **Document** tab and pick **in** under **Units**. Use the same numbers, or convert them.
 
 ## 1. Create a new Document
 

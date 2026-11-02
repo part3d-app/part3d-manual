@@ -79,7 +79,7 @@ These rules hold a measurement. They show the current value, and you tap it to c
 - **Distance** depends on what you selected: a line gives its length, two points give the gap between them, a point and a line give the shortest distance from one to the other, and two parallel lines give the gap between them.
 - **Horizontal Distance** and **Vertical Distance** measure along one axis only. They are not offered for a line that is already held horizontal or vertical, because **Distance** then measures the same thing.
 - **Angle** needs two lines.
-- **Diameter** and **Radius** size a circle or an arc. Whether a circle or arc shows its size as a diameter (⌀) or a radius (R) is a setting, not part of the Document: change it in the settings menu in the bar at the bottom of the screen, under **Circle and arc dimensions**.
+- **Diameter** and **Radius** size a circle or an arc. Whether a circle or arc shows its size as a diameter (⌀) or a radius (R) is a setting, not part of the Document: change it in **Settings**, on the **General** tab, under **Circle and arc dimensions**.
 
 ## Joining: Coincident, Point On and Midpoint
 
@@ -100,7 +100,7 @@ Part3D can add Constraints while you draw:
 - **Auto constraints** is on by default. When a point lands on another point, on a line or on the origin, Part3D joins them, and a line that is nearly level or plumb is made so. Turn it off if it joins things you wanted left apart.
 - **Auto dimensions** is off by default. When it is on, the Tools also add a size Constraint for the shape you draw, such as a line's length or a circle's diameter, so it starts with a number you can tap to change.
 
-Both are in the settings menu in the bar at the bottom of the screen, under **Behavior**, while you edit a sketch.
+Both are in **Settings** (the gear in the toolbar), on the **Sketch** tab.
 
 ![Auto constraints and Auto dimensions](images/constraints-05-auto-settings.png)
 

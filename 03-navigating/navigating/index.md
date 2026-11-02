@@ -39,17 +39,19 @@ Part3D also locks the camera for you when you open a sketch, and when you tap **
 
 ## Go to a standard view
 
-The view selector in the top-right corner shows the name of the current view: **Top**, **Front**, **Back**, **Right**, **Left**, **Bottom**, or **Custom** when you have turned the view to somewhere in between.
+The view selector in the bar at the bottom of the screen shows a small cube with the side you are looking at in blue.
 
-1. Tap the view selector to open the list.
+1. Tap the view selector. A bar of views opens above it.
 
    ![The view selector](images/navigating-01-view-selector.png)
 
-2. Tap a view. The camera moves to look at your model from there.
+2. Tap **Iso**, **Top**, **Front** or **Right**. The camera moves to look at your model from there. The bar stays open, so you can try another view; tap anywhere else to close it.
 
-   ![The list of views](images/navigating-02-view-list.png)
+   ![The bar of views](images/navigating-02-view-list.png)
 
-The button next to the view selector, **Toggle Shaded with Edges**, switches whether solids are drawn with their edges outlined.
+The same bar has two switches after the views: **Ortho.** draws the model without perspective, so parallel edges stay parallel, and **Section** turns on the Section View.
+
+The button in the top-right corner, **Toggle Shaded with Edges**, switches whether solids are drawn with their edges outlined.
 
 ## Camera to Normal
 
@@ -68,9 +70,9 @@ Tap the **Undo** arrow in the toolbar to take back your last change, and **Redo*
 
 ## Switch to inches
 
-The examples in this manual use millimetres. To work in inches, tap the gear in the bar at the bottom of the screen (**Display & Units**) and pick **in** under **Units**. Use the same numbers, or convert them.
+The examples in this manual use millimetres. To work in inches, tap **Settings** (the gear in the toolbar), open the **Document** tab and pick **in** under **Units**. Use the same numbers, or convert them.
 
-![Units in the Display & Units menu](images/navigating-06-units.png)
+![Units in the Settings dialog](images/navigating-06-units.png)
 
 ## What's next
 

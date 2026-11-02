@@ -33,7 +33,7 @@ Point has no options. The keyboard shortcut is **P**.
 ## Common problems
 
 - **The point landed in the wrong spot:** drag it to where you want it.
-- **The point joined to a line instead of standing alone:** it snapped to the line. Place it away from other shapes, or turn off **Auto constraints** in the settings menu in the bar at the bottom of the screen.
+- **The point joined to a line instead of standing alone:** it snapped to the line. Place it away from other shapes, or turn off **Auto constraints** in **Settings**, on the **Sketch** tab.
 - **Nothing was placed:** use the Pencil, not a finger.
 
 > [!NOTE]
