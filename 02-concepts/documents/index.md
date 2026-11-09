@@ -30,14 +30,14 @@ The **Documents** screen lists your Documents. Tap **New Document** to start an 
 
 ### On iPad
 
-If you use iCloud Drive, new Documents are kept in the **Part3D** folder in iCloud Drive. They stay there if you delete the app, and you can open them in the Files app. Without iCloud Drive, Documents are kept on the iPad.
+The first time you save a Document, choose its name and where to keep it. Part3D starts in its **Part3D** folder in iCloud Drive if you use iCloud Drive, but you can pick any place in the Files app. Wherever you pick, the Document stays if you delete the app.
 
-Each Document shows where it is kept: a cloud for iCloud, an iPad for this iPad only.
+Each Document shows where it is kept: a cloud for iCloud, a folder for a place you chose, an iPad for inside the app.
 
 > [!WARNING]
-> Documents kept only on this iPad are deleted along with the app. To keep one, open its **…** menu and choose **Move to iCloud**.
+> Documents kept inside the app, from before this version, are deleted along with the app. To keep one, open its **…** menu and choose **Move…**.
 
-If you edit the same Document on two devices before they sync, Part3D keeps both. The other version appears as its own Document, with **(conflict)** after its name.
+If you edit the same Document in iCloud on two devices before they sync, Part3D keeps both. The other version appears as its own Document, with **(conflict)** after its name.
 
 ## What's next
 
