@@ -28,6 +28,17 @@ The **Documents** screen lists your Documents. Tap **New Document** to start an 
 > [!NOTE]
 > **On Mac:** press ⌘S to save.
 
+### On iPad
+
+If you use iCloud Drive, new Documents are kept in the **Part3D** folder in iCloud Drive. They stay there if you delete the app, and you can open them in the Files app. Without iCloud Drive, Documents are kept on the iPad.
+
+Each Document shows where it is kept: a cloud for iCloud, an iPad for this iPad only.
+
+> [!WARNING]
+> Documents kept only on this iPad are deleted along with the app. To keep one, open its **…** menu and choose **Move to iCloud**.
+
+If you edit the same Document on two devices before they sync, Part3D keeps both. The other version appears as its own Document, with **(conflict)** after its name.
+
 ## What's next
 
 - [Sketches](../sketches/index.md) are where every solid starts.
