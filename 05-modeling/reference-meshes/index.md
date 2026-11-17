@@ -11,7 +11,7 @@ An STL you import with **Import File** becomes a reference mesh: it is drawn see
 
 ## Place and copy it
 
-Transform, Clone, Mirror, Linear Array and Circular Array take a reference mesh as they take a solid:
+Transform, Clone, Mirror, Linear Array and Circular Array take a reference mesh as they take a solid. Other Tools ignore it:
 
 1. Open the Tool from the sidebar.
 2. Pick the mesh: tap its row under **Reference Meshes** in the Solids tab, or click it in the canvas with the Pencil, mouse or trackpad. You can pick solids in the same go.
@@ -23,4 +23,6 @@ With a mesh picked, **Merge Solids** (Mirror, Arrays) and **Linked** / **Detache
 
 ## Rename, color, hide and delete
 
-Tap a mesh's row in the Solids tab for **Hide**, **Color**, **Rename** and **Delete**. A copy has no Delete: delete or edit the Feature that made it. Deleting a mesh takes it out of every Feature that moves or copies it, and a Feature left with nothing to act on goes with it. Undo brings everything back.
+Tap a mesh's row in the Solids tab to pick it, then use **Hide**, **Color**, **Rename** or **Delete** in the bar; its eye hides it too. A copy has no Delete: delete or edit the Feature that made it. Deleting a mesh takes it out of every Feature that moves or copies it, and a Feature left with nothing to act on goes with it. Undo brings everything back.
+
+> **On Mac:** click wherever this page says tap.
